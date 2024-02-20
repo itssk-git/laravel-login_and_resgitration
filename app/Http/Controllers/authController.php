@@ -49,7 +49,7 @@ class authController extends Controller
             return redirect(route('register'))->with("error","registration failed");
         }
         else{
-            return redirect(route('login'))->with("success","registration success");
+            return redirect(route('login'))->with("success","registration successful");
 
         }
 
